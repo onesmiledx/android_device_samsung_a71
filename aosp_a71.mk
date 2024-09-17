@@ -7,8 +7,8 @@
 # Inherit from a71 device
 $(call inherit-product, device/samsung/a71/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common PixelBuilds stuff.
+$(call inherit-product, vendor/pb/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_a71
