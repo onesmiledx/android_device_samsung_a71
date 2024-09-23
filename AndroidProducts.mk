@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a71.mk
+    $(LOCAL_DIR)/lineage_a71.mk
